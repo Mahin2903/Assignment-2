@@ -81,9 +81,58 @@
     font-weight: bold;
     color: #E95A08;
 }
+.card-section{
+    margin-top: 120px;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-title p{
+    max-width: 888px;
+    max-height: 54px;
+    margin: 0 auto;
+  text-align: center;   
+    
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    margin:0 auto;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.card-title p{
+    color:  #0000005f;
+    font-size: 22px; 
+    margin-bottom: 79px;
+}
+.card{
+    width: 270px;
+    height: 484px;
+    
+    text-align: center;
+    
+    
+}
+.card img{
+    width: 270px;
+    height: 322px;
+}
+.btn-primary{
+    width: 270px;
+    height: 50px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+}
 @media screen and (max-width:676px) {
     .header{
-        max-width: 670px;
+        max-width: 640px;
         
         
 
@@ -93,13 +142,19 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+    .banner img{
+    max-width: 390px;
+    
+    max-height: 245px;
+}
+    
     .navbar {
         
         
         margin-top: 3px;
         align-items: center;
         
-        width: 510px;
+        width: 370px;
         margin: 23px 10px;
 
         
@@ -109,20 +164,64 @@
         max-width: 83px;
         max-height: 48px;
      }
-    .cart{
-        
-        
+    .banner-title {
+        width: 361px;
         
     }
-  
- 
     .banner-title h1{
-        
+        font-size: 22px;
     }
+    .banner-script p{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .card-section{
+        margin-top: 65px;
+        
+    
+    }
+    
+    .card-container{
+        
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    
+    
+    margin:0 auto;
+    
+    justify-content: center;
+    
+ 
+}
+.card-title p{
+    font-size: 14px;
+}
+.card{
+    width: 170px;
+    height: 494px;
+    
+    text-align: center;
+    
+  }
+.card:nth-child(7),
+    .card:nth-child(8) {
+     display: none;
+    
+}
+.btn-primary{
+    width: 170px;
+}
+.card img{
+    width: 170px;
+}
     .options a{
         display: none;
         
     }
     
-
+    
+    
 }
+
+    
+
