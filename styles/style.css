@@ -83,6 +83,7 @@
 }
 .card-section{
     margin-top: 120px;
+  
 }
 
 .card-title{
@@ -129,6 +130,40 @@
     color: white;
     font-size: 16px;
     font-weight: 500px;
+}
+.flower-store{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+    
+}
+.flower-store img{
+    width: 540px;
+    height: 597px;
+    margin-right: 60px;
+}
+.flower-store h1{
+font-size: 50px;
+font-weight: bold;
+}
+.flower-store ul li{
+    font-size: 22px;
+    color: #00000072;
+}
+.store-pic{
+    position: relative;
+    
+   
+}
+.badge{
+    max-width: 286px;
+    max-height: 286px;
+    position: absolute;
+    left: 550px;
+    top: 2040px;
+    
+    
 }
 @media screen and (max-width:676px) {
     .header{
@@ -177,7 +212,7 @@
     }
     .card-section{
         margin-top: 65px;
-        
+        margin-bottom: 20px;
     
     }
     
@@ -191,13 +226,14 @@
     
     justify-content: center;
     
+    
  
 }
 .card-title p{
     font-size: 14px;
 }
 .card{
-    width: 170px;
+    max-width: 170px;
     height: 494px;
     
     text-align: center;
@@ -212,15 +248,36 @@
     width: 170px;
 }
 .card img{
-    width: 170px;
+    width: 100%;
+   
 }
     .options a{
         display: none;
         
     }
+    .badge{
+    display: none;
+}
+.flower-store{
+    flex-direction: column;
+
+    max-width: 540px;
+    margin:0 auto;
+   
+
     
-    
-    
+}
+    .flower-store img{
+        width: 395px;
+        height: 395px;
+    }
+    .flower-store h1{
+        font-size: 24px;
+    }
+    .flower-store ul li{
+        font-size: 14px;
+        text-align: center;
+    }
 }
 
     
