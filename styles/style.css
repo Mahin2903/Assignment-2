@@ -262,16 +262,16 @@ font-weight: bold;
     flex-direction: column;
 
     /* max-width: 540px; */
-    margin:0 auto;
-    
+    margin: 0;
+    align-items: center;
    
 
     
 }
     .flower-store img{
-        width: 355px;
+        width: 354px;
         height: 395px;
-        margin:0 0 0 10px;
+        margin:0 auto;
         
     }
     .flower-store h1{
