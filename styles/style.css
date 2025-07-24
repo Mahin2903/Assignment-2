@@ -261,14 +261,15 @@ font-weight: bold;
 .flower-store{
     flex-direction: column;
 
-    max-width: 540px;
+    /* max-width: 540px; */
     margin:0 auto;
+    
    
 
     
 }
     .flower-store img{
-        width: 395px;
+        width: 355px;
         height: 395px;
     }
     .flower-store h1{
