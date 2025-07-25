@@ -466,10 +466,8 @@ font-weight: bold;
 }
 .flower-store{
     flex-direction: column;
-
-    /* max-width: 540px; */
     margin: 0;
-    align-items: center;
+    /* align-items: center; */
    
 
     
@@ -486,7 +484,7 @@ font-weight: bold;
     }
     .flower-store ul li{
         font-size: 14px;
-        text-align: center;
+        
 
     }
 .plant-container{
