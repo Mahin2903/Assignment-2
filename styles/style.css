@@ -368,8 +368,12 @@ margin-bottom: 0px;
     color: #0000007a;
     
 }
+.footer-part-2{
+    
+}
 .footer-part-2 a{
     margin-right: 24px;
+    
 }
 @media screen and (max-width:676px) {
     .header{
@@ -434,6 +438,9 @@ margin-bottom: 0px;
     
     
  
+}
+.card-title {
+    font-size: 24px;
 }
 .card-title p{
     font-size: 14px;
