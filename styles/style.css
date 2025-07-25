@@ -143,14 +143,17 @@
     width: 540px;
     height: 597px;
     margin-right: 60px;
+    margin-top: 10px;
 }
 .flower-store h1{
 font-size: 50px;
 font-weight: bold;
+margin-bottom: 0px;
 }
 .flower-store ul li{
     font-size: 22px;
     color: #00000072;
+    margin-bottom: 26px;
 }
 .store-pic{
     position: relative;
@@ -475,7 +478,8 @@ font-weight: bold;
     .flower-store img{
         width: 354px;
         height: 395px;
-        margin:0 auto;
+        margin:0 21px;
+        justify-content: center;
         
     }
     .flower-store h1{
@@ -484,7 +488,7 @@ font-weight: bold;
     }
     .flower-store ul li{
         font-size: 14px;
-        
+        margin-bottom: 15px;
 
     }
 .plant-container{
