@@ -479,8 +479,12 @@ margin-bottom: 0px;
         width: 354px;
         height: 395px;
         margin:0 auto;
-        justify-content: center;
         
+        
+    }
+    .flower-store-image{
+        justify-content: center;
+        text-align: center;
     }
     .flower-store h1{
         font-size: 24px;
